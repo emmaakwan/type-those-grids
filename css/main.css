@@ -26,3 +26,64 @@ main {
     "box 1 box 2 box 3";
   gap: .75em;
 }
+
+.banner {
+  grid-area: banner;
+}
+
+.banner-text {
+  grid-area: banner;
+  align-self: end;
+  color: #fff;
+  padding: 1.5rem 1rem;
+}
+
+h1 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5 rem;
+  margin: 0 0 1.5 rem;
+}
+
+header {
+  padding: 1.5rem 1rem;
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+.banner-text h2 {
+  margin-bottom: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
+figure h2 {
+  margin-bottom: 0;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  font-style: italic;
+}
+
+dd {
+  margin-left: 1rem;
+}
