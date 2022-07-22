@@ -23,7 +23,7 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "banner banner banner"
-    "box 1 box 2 box 3";
+    "col1 col2 col3";
   gap: .75em;
 }
 
@@ -36,6 +36,14 @@ main {
   align-self: end;
   color: #fff;
   padding: 1.5rem 1rem;
+}
+
+.banner-text h2 {
+  margin-bottom: 0;
+}
+
+.banner-text p {
+  margin-bottom: 0;
 }
 
 h1 {
@@ -60,20 +68,16 @@ p {
   margin: 0 0 1.5rem;
 }
 
-.banner-text h2 {
-  margin-bottom: 0;
-}
-
 figure {
   margin: 0;
 }
 
-figcaption {
-  padding: 1rem;
-}
-
 figure h2 {
   margin-bottom: 0;
+}
+
+figcaption {
+  padding: 1rem;
 }
 
 dl {
