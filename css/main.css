@@ -49,7 +49,7 @@ h2 {
   font-weight: normal;
   font-style: italic;
   font-size: 1.5 rem;
-  margin: 0 1.5 rem;
+  margin: 1.5 rem;
 }
 
 header {
@@ -57,7 +57,7 @@ header {
 }
 
 p {
-  margin: 0 1.5rem;
+  margin: 1.5rem;
 }
 
 .banner-text h2 {
